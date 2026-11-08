@@ -1,0 +1,14 @@
+lockfile_version: '1'
+apm_version: 0.35.0
+dependencies:
+- repo_url: github/awesome-copilot
+  name: context-engineering
+  host: github.com
+  resolved_commit: 797337f33f73e35d08d82f840e21c4b8c4932d88
+  version: 1.0.0
+  virtual_path: plugins/context-engineering
+  is_virtual: true
+  package_type: agent_plugin
+  content_hash: sha256:2f04290f2b4a514d04dd0fcbf8ca4c03745c04bdc63c123471bb0a52d590ca03
+  declared_license: MIT
+deployments: []

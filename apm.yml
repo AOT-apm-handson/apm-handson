@@ -1,0 +1,15 @@
+name: apm-handson
+version: 1.0.0
+description: APM project for apm-handson
+author: Attack On Takuya
+# Which agent platforms to deploy to (uncomment to pin):
+# targets:
+#   - copilot
+#   - claude
+
+dependencies:
+  apm:
+    - github/awesome-copilot/plugins/context-engineering
+  mcp: []
+includes: auto
+scripts: {}
